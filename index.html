@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>John Brothers – Complete Electric Solutions</title>
+
+    <!-- Google Fonts: Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HERO -->
+    <section id="hero" class="hero" aria-label="John Brothers Hero Section">
+      <h1>John Brothers – Complete Electric Solutions</h1>
+      <p>We power homes, businesses, and everything in between</p>
+      <a href="#enquiry" class="btn-accent" role="button" tabindex="0"
+        >Enquire Now</a
+      >
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="text" id="about-title">
+          <h2>About Us</h2>
+          <p>
+            John Brothers is proud to launch its expert electrical services for
+            both residential and commercial spaces. Backed by skilled
+            professionals and a passion for quality, we are committed to
+            delivering reliable, safe, and efficient electrical solutions.
+            Whether it's a small repair or a large installation, your electrical
+            needs are in trusted hands. We’re here to power your spaces — with
+            care and excellence.
+          </p>
+        </div>
+        <div class="image" aria-hidden="true">
+          <img
+            src="electric.jpg"
+            alt="Electrical tools and equipment"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" aria-labelledby="services-title">
+      <div class="container">
+        <h2 id="services-title">Our Services</h2>
+        <div class="services-grid" role="list">
+          <article
+            class="service-card"
+            role="listitem"
+            tabindex="0"
+            aria-label="Fan/Motor Repair service"
+          >
+            <div class="service-icon" aria-hidden="true">🛠️</div>
+            <h3 class="service-title">Fan/Motor Repair</h3>
+            <p class="service-desc">
+              Quick and dependable repair of all types of electric fans and
+              motors to keep you moving.
+            </p>
+          </article>
+          <article
+            class="service-card"
+            role="listitem"
+            tabindex="0"
+            aria-label="Switch/Sockets Installation service"
+          >
+            <div class="service-icon" aria-hidden="true">🔌</div>
+            <h3 class="service-title">Switch/Sockets Installation</h3>
+            <p class="service-desc">
+              Safe, neat installation and replacement of switches, sockets, and
+              power outlets for your home or office.
+            </p>
+          </article>
+          <article
+            class="service-card"
+            role="listitem"
+            tabindex="0"
+            aria-label="Home & Industrial Wiring service"
+          >
+            <div class="service-icon" aria-hidden="true">⚡</div>
+            <h3 class="service-title">Home & Industrial Wiring</h3>
+            <p class="service-desc">
+              Professional wiring services designed to meet stringent safety and
+              efficiency standards.
+            </p>
+          </article>
+          <article
+            class="service-card"
+            role="listitem"
+            tabindex="0"
+            aria-label="Inverter Wiring service"
+          >
+            <div class="service-icon" aria-hidden="true">🔋</div>
+            <h3 class="service-title">Inverter Wiring</h3>
+            <p class="service-desc">
+              Reliable and efficient inverter wiring to keep your power
+              uninterrupted during outages.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENQUIRY FORM -->
+    <section id="enquiry" aria-labelledby="enquiry-title">
+      <form
+        class="container"
+        method="POST"
+        action="https://formsubmit.co/madavana153@gmail.com"
+      >
+        <h2 id="enquiry-title">Make an Enquiry</h2>
+
+        <div class="form-group">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder=" "
+            required
+            aria-required="true"
+            aria-describedby="name-desc"
+          />
+          <label for="name">Full Name</label>
+          <span id="name-desc" class="sr-only">Enter your full name</span>
+        </div>
+
+        <div class="form-group">
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder=" "
+            required
+            aria-required="true"
+            aria-describedby="phone-desc"
+          />
+          <label for="phone">Phone Number</label>
+          <span id="phone-desc" class="sr-only"
+            >Enter a valid phone number including country code</span
+          >
+        </div>
+
+        <div class="form-group">
+          <textarea
+            id="message"
+            name="message"
+            placeholder=" "
+            aria-describedby="message-desc"
+          ></textarea>
+          <label for="message">Message</label>
+          <span id="message-desc" class="sr-only"
+            >Enter additional details or questions (optional)</span
+          >
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title">Contact Us</h2>
+        <div id="contact-details" role="contentinfo">
+          <div>
+            <strong>Address:</strong><br />
+            <br />
+            kaloor-paingottoor Road,<br />
+            Thodupuzha-perumakandam-kaloor Rd,<br />
+            kerala 685608
+          </div>
+          <div>
+            <strong>Phone:</strong><br />
+            <a href="tel:+919846995084" aria-label="Phone number">9846995084</a>
+          </div>
+          <div>
+            <strong>WhatsApp:</strong><br />
+            <a
+              href="https://wa.me/9846995084"
+              target="_blank"
+              rel="noopener"
+              aria-label="WhatsApp chat"
+              >Chat on WhatsApp</a
+            >
+          </div>
+        </div>
+        <div id="business-hours" role="region" aria-label="Business hours">
+          <h3>Business Hours</h3>
+          <time datetime="Mo-Fr 09:00-18:00"
+            >Monday - saturday: 9 AM - 7PM</time
+          >
+          <time datetime="Su closed">Sunday: Closed</time>
+        </div>
+        <div
+          style="
+            margin-top: 40px;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 0 30px #2563eb55;
+          "
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7858.778075617326!2d76.70108618546774!3d9.984687226865631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07c27484031417%3A0xbef33976cb143faf!2sKaloor%2C%20Kerala!5e0!3m2!1sen!2sin!4v1752861904107!5m2!1sen!2sin"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Google map showing electric shop location"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        &copy; 2025 website created by Robin shiji , John Brothers. All rights
+        reserved. &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#hero">Back to Top</a>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Icon -->
+    <a
+      href="https://wa.me/9846995084"
+      target="_blank"
+      rel="noopener"
+      id="whatsapp-float"
+      aria-label="Chat with John Brothers on WhatsApp"
+    >
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        aria-hidden="true"
+        focusable="false"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.5 3.5a10.72 10.72 0 0 0-16.55 14.81l-1.36 4.95 5.09-1.33A10.72 10.72 0 0 0 20.5 3.5Zm-7.52 16.08a8.37 8.37 0 0 1-4.12-1.15l-.3-.18-3.03.79.81-2.92-.2-.31a8.37 8.37 0 0 1 7.68-12.57 8.34 8.34 0 0 1 8.27 8.27 8.37 8.37 0 0 1-8.23 8.07ZM16.36 15c-.26-.13-1.54-.76-1.77-.85-.23-.09-.4-.13-.57.13-.16.26-.63.85-.77 1.02-.14.17-.28.19-.54.06-.26-.13-1.1-.4-2.1-1.29-.78-.7-1.3-1.56-1.44-1.81-.14-.26-.02-.4.12-.53.12-.12.26-.3.38-.44.13-.15.17-.26.26-.43.08-.17.04-.31-.02-.44-.06-.13-.57-1.35-.78-1.86-.2-.48-.4-.41-.57-.42-.15-.01-.32-.01-.49-.01a.79.79 0 0 0-.57.26c-.19.19-.73.71-.73 1.73s.75 2.01.86 2.15c.12.14 1.48 2.34 3.58 3.28.5.22.89.35 1.19.45.5.15.95.13 1.31.08.4-.06 1.23-.5 1.4-.98.18-.49.18-.91.13-.98-.04-.06-.15-.12-.3-.21Z"
+        />
+      </svg>
+    </a>
+  </body>
+</html>
