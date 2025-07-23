@@ -77,8 +77,7 @@
     }
     
     .hero p {
-      position: relative;
-      top: 13px;
+      
       font-weight: 800;
       font-size: 1.3rem;
       max-width: 600px;
