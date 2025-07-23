@@ -138,10 +138,10 @@
       flex: 1 1 350px;
       border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 4px 25px rgb(38 132 255 / 0.25);
       max-width: 400px;
       margin: 0 auto;
     }
+    
     #about .image img {
       width: 100%;
       height: auto;
@@ -444,6 +444,8 @@
       }
       #about .image {
         max-width: 100%;
+        margin-bottom: 1.5rem;
+        
       }
       .services-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
