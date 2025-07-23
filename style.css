@@ -73,6 +73,7 @@
         0 0 10px #2563eb;
       line-height: 1.1;
       letter-spacing: 1px;
+      text-transform:capitalize;
     }
     
     .hero p {
@@ -80,8 +81,9 @@
       font-size: 1.3rem;
       max-width: 600px;
       margin: 0 auto 2.5em;
-      color: #a5b4fccc;
+      color: #ffffff;
       text-shadow: 0 0 4px rgba(59, 130, 246, 0.7);
+      margin-top: -10px;
     }
     .btn-accent {
       display: inline-block;
